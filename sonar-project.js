@@ -1,12 +1,12 @@
 const sonarqubeScanner = require('sonarqube-scanner');
 
 sonarqubeScanner({
-  serverUrl: 'http://34.200.232.198:9000/',
+  serverUrl: 'http://3.227.8.58:9000/',
        options : {
 	    'sonar.projectDescription': 'This is a Node JS application',
 	    'sonar.projectName': 'Node JS Application - Sample',
 	    'sonar.projectKey':'NodeJsMithunTechnologies',
-	    'sonar.login': 'squ_018d5e8c3e96f5250a8d8a61eb0c743a27237d69',
+	    'sonar.login': 'squ_2fd2e8d913622dddf53b49ed2965d025289e87bd',
 	    //'sonar.login': 'admin',
 	    //'sonar.password': 'admin',
             'sonar.projectVersion':'1.0',
